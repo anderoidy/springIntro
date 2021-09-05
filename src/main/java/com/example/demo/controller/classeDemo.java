@@ -8,6 +8,7 @@ public class classeDemo {
 
     @GetMapping("/")
     public String metodoExibeMensagem(){
-        return "Hello Spring";
+
+        return "Hello Spring Boot";
     }
 }
